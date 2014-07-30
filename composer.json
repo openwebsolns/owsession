@@ -1,5 +1,5 @@
 {
-    "name": "openwebsolns/session",
+    "name": "openwebsolns/owsession",
     "type": "library",
     "description": "OOP wrapper for PHP Sessions",
     "keywords": ["session","wrapper"],
