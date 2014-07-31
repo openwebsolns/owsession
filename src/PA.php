@@ -33,6 +33,10 @@ class PA {
     $this->c = $context;
   }
 
+  public function getMessage() {
+    return $this->m;
+  }
+
   public function getType() {
     return $this->t;
   }

@@ -3,7 +3,7 @@
     "type": "library",
     "description": "OOP wrapper for PHP Sessions",
     "keywords": ["session","wrapper"],
-    "homepage": "http://github.com/openwebsolns/session",
+    "homepage": "http://github.com/openwebsolns/owsession",
     "license": "GPLv3",
     "authors": [
         {
