@@ -56,7 +56,7 @@ class Session {
       $pa = self::$flashes[$i];
       if (($type === null || $type == $pa->getType()) && ($context === null || $context == $pa->getContext())) {
         $list[] = $pa;
-        unset(self::$flashes[$i]);
+        array_splice(self::$flashes, $i, 1);
       }
       else {
         $i++;
